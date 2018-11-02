@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <h1 id="title">Pet Adoption Survey</h1>
+    
+    <div id="form_body">
+      <p id="description">Please take a few minutes to help us out by filling the following survey about animal adoption</p>
+
+      <form action="#" id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="John Smith">
+
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="jsmith@email.com" required>
+
+        <label for="age" id="number-label">Age:</label>
+        <input type="number" name="age" id="number" min="0" max="120" placeholder="25">
+
+        <p><label for="gender">I am:</label></p>
+        <input type="radio" name="gender" value="1" id="female">Female<br>
+        <input type="radio" name="gender" value="2" id="female">Male<br>
+        <input type="radio" name="gender" value="3" id="female">Other<br>
+
+        <p><label for="dropdown">Favorite pet:</label></p>
+        <select name="dropdown" id="dropdown">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="fish">Fish</option>
+          <option value="hamster">Hamster</option>
+          <option value="other">Other</option>
+        </select>
+
+        <p><label for="checkbox">What would be your main considerations before adopting a pet?</label></p>
+        <input type="checkbox" value="demands" name="checkbox" id="checkbox">The time and attention involved in the caring of that particular animal<br>
+        <input type="checkbox" value="character" name="checkbox" id="checkbox">The animal temperament<br>
+        <input type="checkbox" value="cost" name="checkbox" id="checkbox">The cost of caring for the animal<br>
+        <input type="checkbox" value="other" name="checkbox" id="checkbox">Other reasons
+
+        <p><label for="comments">Comments and suggestions</label></p>
+        <div id="textarea">
+          <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments go here..."></textarea>
+        </div>
+
+        <div><button type="submit" id="submit">Submit</button></form></div>  
+      </form>
+    </div>
+    
+  </body>
+
+</html>

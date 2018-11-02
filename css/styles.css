@@ -1,0 +1,39 @@
+ /* add image 
+ Dropdown starts empty  */
+
+
+ body {
+
+  background-color: #BBD3B3;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
+  
+ }
+
+ h1 {
+
+  text-align: center;
+  color: #2C4144;
+}
+
+textarea {
+
+  width: 100%;
+}
+
+#form_body {
+
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #ef5540;
+  color: #1f2728;
+  width: 70%;
+  max-width: 750px;
+  
+}
+
+p#description {
+
+  font-weight: bold;
+  padding-bottom: 1em;
+} 
